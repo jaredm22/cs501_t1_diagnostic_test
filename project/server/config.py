@@ -5,7 +5,6 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 postgres_local_base = 'sqlite:///'
 database_name = 'diagnostic'
 
-
 class BaseConfig:
     """Base configuration."""
     SECRET_KEY = os.getenv('SECRET_KEY', 'diagnostic_secret')
